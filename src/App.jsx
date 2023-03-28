@@ -27,8 +27,8 @@ function App() {
             <Sidebar/>
           </Grid>
           <Grid item xs={12} md={6}> 
-            {!matchessm && <Contentsm /> || !matchesmd && <Contentmd/> || <Content/>}
-            
+            {/* {!matchessm && <Contentsm /> || !matchesmd && <Contentmd/> || <Content/>} */}
+            <Content />
             
           </Grid>
           <Grid item xs={12} md={3}> 

@@ -44,7 +44,7 @@ export default function Content() {
           
           
         <Grid container rowSpacing={2} columnSpacing={2} >
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6} sm={12}>
          <Card>
          <CardActionArea>
            <CardMedia
@@ -65,7 +65,7 @@ export default function Content() {
         </CardActionArea>
       </Card>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6} sm={6}>
       <Card>
         <CardActionArea>
           <CardMedia
@@ -85,7 +85,7 @@ export default function Content() {
         </CardActionArea>
       </Card>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6} sm={6}>
          <Card>
          <CardActionArea>
            <CardMedia
